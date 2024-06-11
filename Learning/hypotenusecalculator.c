@@ -4,6 +4,8 @@
 int main(){
     double a, b, c;
 
+    printf("\n === Hypotenuse Calculator ===");
+
     printf("\nSide A = ");
     scanf("\n%lf", &a);
 
