@@ -7,6 +7,8 @@ int main(){
     printf("\nPlease enter your grade: ");
     scanf("%c", &grade);
 
+    grade = toupper(grade);
+
     switch (grade)
     {
     case 'A':
